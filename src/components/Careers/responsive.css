@@ -1,0 +1,198 @@
+@media (max-width: 480px) {
+    .career-heading {
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .career-heading-1>h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .career-heading-2>p,
+    .career-heading-3>p {
+        font-size: 1rem;
+        padding: 0 0%;
+        text-align: center;
+    }
+
+    .career-heading-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .career-photos {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .career-photo-1,
+    .career-photo-2,
+    .career-photo-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .career-position {
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .position-heading>h1 {
+        font-size: 1.5rem;
+    }
+
+    .position-data {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .positions {
+        width: 100%;
+    }
+
+    .growing {
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .growing-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .growing-graph {
+        width: 100%;
+        height: auto;
+    }
+
+    .team {
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .team-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .team-words {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team1-words {
+        width: 100%;
+        max-height: 100vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .career-heading {
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .career-heading-1>h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .career-heading-2>p,
+    .career-heading-3>p {
+        font-size: 1rem;
+        padding: 0 15%;
+        text-align: center;
+    }
+
+    .career-heading-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .career-photos {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .career-photo-1,
+    .career-photo-2,
+    .career-photo-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .career-position {
+        height: 35vh;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .position-heading>h1 {
+        font-size: 1.5rem;
+    }
+
+    .position-data {
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .positions {
+        width: 100%;
+    }
+
+    .growing {
+        height: 55vh;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .growing-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .growing-graph {
+        width: 100%;
+        height: auto;
+    }
+
+    .team {
+        height: auto;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .team-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .team-words {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .team1-words {
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,110 @@
+@media (max-width: 480px) {
+    .product {
+        width: 100%;
+        background-color: rgb(247, 248, 245);
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .card-content {
+        gap: 20px;
+    }
+
+    .card-title {
+        font-size: 1em;
+    }
+
+    .card-description {
+        font-size: 0.875rem;
+    }
+
+    .card-type,
+    .card-members,
+    .card-price {
+        font-size: 0.875rem;
+    }
+
+    .card-tag {
+        font-size: 0.75rem;
+        padding: 8px 12px;
+        color: white;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        width: 100%;
+        padding: 20px 40px;
+    }
+
+    .card-content {
+        gap: 25px;
+    }
+
+    .card-title {
+        font-size: 1.1em;
+    }
+
+    .card-description {
+        font-size: 0.95rem;
+    }
+
+    .card-type,
+    .card-members,
+    .card-price {
+        font-size: 0.95rem;
+    }
+
+    .card-tag {
+        font-size: 0.85rem;
+        padding: 7px 11px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        width: 100%;
+        padding: 20px 60px;
+    }
+
+    .card-content {
+        gap: 28px;
+    }
+
+    .card-title {
+        font-size: 1.15em;
+    }
+
+    .card-description {
+        font-size: 0.95rem;
+    }
+
+    .card-type,
+    .card-members,
+    .card-price {
+        font-size: 0.95rem;
+    }
+
+    .card-tag {
+        font-size: 0.85rem;
+        padding: 7px 11px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1056px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+        width: 100%;
+        padding: 20px 60px;
+    }
+}

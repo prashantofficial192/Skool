@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer .footer-links {
+        margin-bottom: 20px;
+    }
+
+    .footer-links>nav>ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer-links>nav>ul>li>a {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    footer .footer-links {
+        margin-bottom: 25px;
+    }
+
+    .footer-links>nav>ul {
+        gap: 20px;
+    }
+
+    .footer-links>nav>ul>li>a {
+        font-size: 0.9375rem;
+    }
+}
