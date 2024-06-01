@@ -1,0 +1,63 @@
+@media (max-width: 480px) {
+    body {
+        font-family: Roboto, Arial, Helvetica, sans-serif;
+    }
+
+    .switch-content {
+        width: 80%;
+        left: 2.5%;
+        padding: 20px;
+        top: 80px;
+    }
+
+    .search-bar-2 {
+        width: 100%;
+    }
+
+    .search-bar-2 input {
+        padding: 10px 20px;
+        font-size: 0.875rem;
+    }
+
+    .community-option span {
+        font-size: 1rem;
+    }
+
+    .option-icon {
+        font-size: 1rem;
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .switch-content {
+        width: 50%;
+        left: -100%;
+        padding: 15px;
+        top: 75px;
+    }
+
+    .switch-content.visible {
+        left: 25%;
+    }
+
+    .search-bar-2 {
+        width: 100%;
+    }
+
+    .search-bar-2 input {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .community-option span {
+        font-size: 1.125rem;
+    }
+
+    .option-icon {
+        font-size: 1.1rem;
+        width: 28px;
+        height: 28px;
+    }
+}

@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
     .banner {
-        height: 25vh;
-        gap: 10px;
+        height: 30vh;
+        gap: 20px;
     }
 
     .banner-heading h1 {

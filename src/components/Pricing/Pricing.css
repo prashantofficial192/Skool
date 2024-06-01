@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.pricing-section {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(247, 248, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pricing-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.pricing-h1>h1 {
+    font-size: 2.813rem;
+}
+
+.pricing-p>p {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    letter-spacing: 0.7px;
+}
+
+
+
+.pricing-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    width: 350px;
+    height: 397px;
+    background-color: white;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.pricing-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    margin-left: 12%;
+}
+
+.pricing {
+    display: flex;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.pricing>span {
+    font-weight: bold;
+}
+
+.pricing>img {
+    width: 7%;
+}
+
+.pricing-btn button {
+    font-size: 1rem;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #F8D481;
+    padding: 14px 32px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+.pricing-btn button:hover {
+    background-color: #F1D07C;
+}
+
+.pricing-tag>h1 {
+    font-size: 2.188rem;
+}
+
+.pricing-fees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.platform-fees {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.platform>p {
+    font-size: 0.875rem;
+    color: rgb(144, 144, 144);
+}
+.platform {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.fees>p {
+    color: rgb(144, 144, 144);
+}

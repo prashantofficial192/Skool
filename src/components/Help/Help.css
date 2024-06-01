@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.help-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.help-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.skool-logo {
+    width: 120px;
+    height: auto;
+}
+
+.help-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.help-nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.help-main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.help-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.help-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.help-search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.help-search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #F8D481;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.help-search-button:hover {
+    background-color: #F1D07C;
+}
+
+.help-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.help-toggle-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.help-toggle-button.active {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-toggle-button:hover {
+    background-color: #e0e0e0;
+}

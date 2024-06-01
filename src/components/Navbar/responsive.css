@@ -39,6 +39,9 @@
     .down {
         display: none;
     }
+    .switch-image{
+        display: none;
+    }
 
     .sign-up {
         display: none;

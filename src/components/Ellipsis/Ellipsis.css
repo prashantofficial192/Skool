@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.ellipsis{
+    width: 186px;
+    height: 188px;
+    background-color: white;
+    position: absolute;
+    top: 658%;
+    right: 13%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.ellipsis-btn {
+    width: 100%;
+}
+.ellipsis-btn button{
+    width: 100%;
+    background: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ellipsis-btn button:hover {
+    background-color: rgb(209, 209, 209);
+}

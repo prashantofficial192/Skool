@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSliders } from '@fortawesome/free-solid-svg-icons';
 import Filter from '../Filter/Filter';
 import "./Category.css";
+import "./responsive.css"
 
 function Category() {
     const [isFilterVisible, setIsFilterVisible] = useState(false);
@@ -18,24 +19,23 @@ function Category() {
                     <div className="category-btn">
                         <button className='all-btn'>All</button>
                         <button>💰 Business</button>
-                        <button>🍎  Health & fitness</button>
-                        <button>📚  Personal development</button>
-                        <button>🎨  Arts & crafts</button>
-                        <button>🎸  Music</button>
+                        <button id='btn2'>🍎  Health & fitness</button>
+                        <button id='btn2'>📚  Personal development</button>
+                        <button id='btn2'>🎨  Arts & crafts</button>
+                        <button id='btn2'>🎸  Music</button>
                     </div>
                     <div className="filter-btn">
-                        <button>More...</button>
+                        <button className='more-btn'>More...</button>
                         <button onClick={toggleFilterVisibility}>
-                            Filter
+                            <p className='filter-p'> Filter </p>
                             <FontAwesomeIcon icon={faSliders} className='slider-icon' />
                         </button>
                     </div>
                 </div>
-                <div className={isFilterVisible ? 'visible' : 'hidden'}>
-                    <Filter />
-                </div>
             </section>
+            {isFilterVisible && <Filter />}
         </main>
+
     );
 }
 

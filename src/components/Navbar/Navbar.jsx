@@ -1,34 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Logo from "../assets/images/10001.svg"
+import SwitchSVG from "../assets/images/10004.svg"
 import "./Navbar.css"
 import "./responsive.css"
+import Switch from '../Switch/Switch';
 
 
 function Navbar() {
+    const navigate = useNavigate();
+
+    const [isSwitchOpen, setIsSwitchOpen] = useState(false);
+
+    const handleSwitchClick = () => {
+        setIsSwitchOpen(!isSwitchOpen);
+    };
     return (
         <>
             <header>
                 <nav>
                     <div className="logo-container">
-                        <div className="toggle">
+                        <div className="toggle" onClick={handleSwitchClick}>
                             <FontAwesomeIcon icon={faBars} className='toggle-icon' />
                         </div>
                         <div className="logo">
                             <img src={Logo} alt="Logo" />
                         </div>
-                        <div className="switch">
-                            <div className="up"><FontAwesomeIcon icon={faChevronUp} className='switch-icon' /></div>
-                            <div className="down"><FontAwesomeIcon icon={faChevronDown} className='switch-icon' /></div>
+                        <div className="switch" onClick={handleSwitchClick}>
+                            <img src={SwitchSVG} alt="Switch" className='switch-image' />
+                            {isSwitchOpen && <Switch />}
                         </div>
                     </div>
                     <div className="btns-container">
                         <div className="sign-up">
-                            <button>SIGN UP</button>
+                            <button onClick={() => navigate('/signup')}>
+                                SIGN UP
+                            </button>
                         </div>
                         <div className="login">
-                            <button>LOGIN</button>
+                            <button onClick={() => navigate('/login')}>
+                                LOGIN
+                            </button>
                         </div>
                     </div>
 
@@ -37,10 +51,4 @@ function Navbar() {
         </>
     )
 }
-export default Navbar
-
-// 💰 Business
-// 🍎  Health & fitness
-// 📚  Personal development
-// 🎨  Arts & crafts
-// 🎸  Music
+export default Navbar;

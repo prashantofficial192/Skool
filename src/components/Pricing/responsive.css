@@ -1,0 +1,117 @@
+@media (max-width: 480px) {
+    .pricing-section {
+        padding: 10px;
+        height: 100vh;
+    }
+
+    .pricing-h1>h1 {
+        font-size: 2rem;
+    }
+
+    .pricing-p>p {
+        font-size: 0.9rem;
+    }
+
+    .pricing-card {
+        width: 90%;
+        height: 400px;
+        padding: 20px;
+    }
+
+    .pricing-features {
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .pricing {
+        /* flex-direction: column; */
+        align-items: center;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+    .pricing>img {
+        width: 8%;
+    }
+
+    .pricing-btn button {
+        padding: 10px 20px;
+        font-size: 0.875rem;
+    }
+
+    .pricing-tag>h1 {
+        font-size: 1.75rem;
+    }
+
+    .pricing-fees {
+        gap: 20px;
+    }
+
+    .platform-fees {
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .platform>p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .pricing-section {
+        padding: 20px;
+        gap: 40px;
+        height: 100vh;
+    }
+
+    .pricing-h1>h1 {
+        font-size: 2.5rem;
+    }
+
+    .pricing-p>p {
+        font-size: 1rem;
+    }
+
+    .pricing-card {
+        width: 72%;
+        height: 550px;
+        padding: 20px;
+    }
+
+    .pricing-features {
+        margin-left: 0;
+        gap: 12px;
+    }
+
+    .pricing {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .pricing>img {
+        width: 10%;
+    }
+
+    .pricing-btn button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    .pricing-tag>h1 {
+        font-size: 2rem;
+    }
+
+    .pricing-fees {
+        gap: 20px;
+    }
+
+    .platform-fees {
+        gap: 15px;
+    }
+
+    .platform>p {
+        font-size: 0.875rem;
+    }
+}

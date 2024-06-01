@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Filter.css"
+import "./responsive.css"
 
 function Filter() {
     return (

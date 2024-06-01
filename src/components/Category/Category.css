@@ -50,6 +50,7 @@ section {
     background-color: white;
     transition: 0.2s;
     text-align: center;
+    display: flex;
 }
 
 .category-btn > button:hover,
@@ -71,12 +72,6 @@ section {
 .slider-icon{
     margin-left: 10px;
 }
-/* .filter-btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-} */
 
 .hidden {
     display: none;
