@@ -25,13 +25,14 @@ body {
     font-weight: bold;
 }
 
-.banner-link p {
+.banner-link > p {
     font-size: 1.25rem;
     font-weight: 700;
 }
-.banner-link p a{
+.banner-link p>a{
     text-decoration: none;
     color: #2E6EF5;
+    cursor: pointer;
 }
 
 .banner-link p a:hover {
