@@ -19,8 +19,8 @@ function Navbar() {
     };
     return (
         <>
-            <header>
-                <nav>
+            <header className='navbar-header'>
+                <nav className='nav'>
                     <div className="logo-container">
                         <div className="toggle" onClick={handleSwitchClick}>
                             <FontAwesomeIcon icon={faBars} className='toggle-icon' />

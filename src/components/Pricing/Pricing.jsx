@@ -2,10 +2,12 @@ import React from 'react'
 import CheckSvg from "../assets/images/10008.svg";
 import "./Pricing.css"
 import "./responsive.css"
+import Navbar from '../Navbar/Navbar';
 
 function Pricing() {
     return (
         <>
+        <Navbar/>
             <main>
                 <div className="pricing-section">
                     {/* 1 */}

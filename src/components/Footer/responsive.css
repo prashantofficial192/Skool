@@ -7,11 +7,16 @@
 
     footer .footer-links {
         margin-bottom: 20px;
+
     }
 
     .footer-links>nav>ul {
         display: flex;
         gap: 20px;
+    }
+
+    .footer-links>nav>ul>li {
+        position: relative;
     }
 
     .footer-links>nav>ul>li>a {

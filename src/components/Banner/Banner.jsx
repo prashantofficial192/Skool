@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import "./Banner.css"
 import "./responsive.css"
 
 function Banner() {
+    const navigate = useNavigate();
     return (
         <>
             <main>
@@ -16,7 +18,7 @@ function Banner() {
                     </div>
                     <div className="banner-link">
                         <p>
-                            or <a href="#">create your own</a>
+                            or <a onClick={() => navigate('/signup')}>create your own</a>
                         </p>
                     </div>
                     <div className="search-bar">
